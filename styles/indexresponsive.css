@@ -1,0 +1,122 @@
+/* responsive.css  */
+/* media query for display: below 500 */ 
+@media screen and (max-width: 31.25em ) {
+ 
+nav {
+background-color: transparent;
+padding-bottom: 0;
+}
+
+nav ul {
+margin-left: 20%;
+padding: 0;
+padding-bottom: 5%;
+float: left; 
+}
+
+nav ul li {
+float: left;
+font-size: 90%;
+clear: both;
+}
+
+nav ul li a {
+float:left;
+border: none;
+font-weight: bold;
+padding: .625em 3.5em; 
+text-decoration: underline;
+}
+
+.image{
+display: block;
+width: 100%;
+height: 100%;
+}
+
+#hand{
+width: 100%;
+margin: 0em; 
+padding-top: 0.7em; 
+padding-bottom: 0.7em;
+}
+
+#about {border: none;}
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* responsive.css  */
+/* media query for display: over 500 */ 
+@media screen and (min-width: 31.25em) {
+
+nav ul {
+margin-left: 23%;
+width: 50%;
+}
+
+nav ul li {
+list-style: none;
+float: left;
+font-size: 93%;
+}
+
+nav ul li a {
+border: none;
+font-weight: bold;
+border-right: 2px solid black; 
+}
+
+#img {
+clear:both; 
+float: left;
+padding-bottom: 2em;
+}
+
+
+.image{
+width: 45%;
+height: 100%;
+}
+
+#img {margin-bottom: 3.6%;}
+
+#hand {
+float: left;
+margin-left: 4%; 
+width: 50%;
+height: 50%;
+}
+
+
+section {
+text-align: center;
+}
+
+section p {
+font-size: 70%;
+}
+
+section p:first-child {
+font-size: 150%;
+}
+
+}
+
+/* responsive.css  */
+/* media query for display: over 900 */ 
+@media screen and (min-width: 980px) {
+
+nav ul {
+margin-left: 28%;
+}
+
+#img {margin-bottom: 0;}
+
+#endpart {margin-top: 40%;
+}
+	
+}
+
+

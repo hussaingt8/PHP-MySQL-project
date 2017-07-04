@@ -1,0 +1,149 @@
+/*
+filename: index.css
+author: HUSSAIN
+description: css for index.html
+*/
+
+* {font-family: calabri, sans-serif;}
+
+header {
+background-image: url(images/background.jpg);
+background-repeat: repeat-x;
+background-position: top;
+}
+
+.rclogo {
+margin-bottom: 1.2%;
+text-align: center; 
+margin-top: 0; 
+padding-top: 1%;
+}
+
+nav {
+padding-bottom: 0.1em;
+}
+
+nav {
+list-style: none;
+padding-top: 0.6em;
+font-weight: 500;
+margin-left: 36.8%;
+padding-bottom: 1em; 
+}
+
+nav a{
+text-decoration: none; 
+padding-left:0.5em; 
+padding-right: 0.5em; 
+padding-top: 0.2em; 
+padding-bottom: 0.2em; 
+border-right: 2px solid black;  
+float: left; 
+}  
+
+a.active {
+background: #ffffcc;
+font-weight: bold;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+}
+
+a.active:hover {
+font-size: 100%;
+}
+
+nav a:first-child{
+border-left: 2px solid black;
+}
+
+nav a:hover {
+font-weight: bold;
+font-size: 110%;
+}
+
+
+h1 {
+font-weight: 300; 
+font-size:250%;
+margin-left: 0.7em; 
+padding-top: 0.5em; clear:both;
+}
+
+#h1para {
+font-size: 100%;
+margin-left: 2em; 
+padding-bottom: 2em; 
+}
+
+#hand {float: left;
+margin-left: 9%;
+margin-top: 2%;
+}
+
+div {
+text-align: center;
+margin-top: 6.5%;
+}
+
+div p:first-child {
+font-size: 200%;
+}
+
+#s1 {
+text-align: center;
+margin-top: 6.5%;
+}
+ 
+#img {
+clear:both; 
+float:left;
+width: 100%;
+margin-top: 3%;}
+
+.image {
+width: 33%;
+}
+
+h2{
+font-weight: 500;
+font-size: 220%;
+font-family: "Times New Roman";
+}
+
+aside {
+clear:both; 
+font-size:50%; 
+border-bottom: 3px solid darkgrey;
+margin-left: 25%;
+padding-top: 0.1%;
+width: 50%;
+}
+
+footer {
+clear:both; 
+font-weight: bold; 
+font-size: 50%;
+text-align: center;
+}
+
+#endpart {
+color: white;
+background-image: url(images/background2.jpg);
+background-repeat: repeat-x;
+background-position: bottom;
+background-size: 100% 21.05%;
+padding-bottom: 1.2%;
+margin-right: 0.4%;
+}
+
+footer p a:link { 
+color: red;
+}
+
+footer p a:visited { 
+color: red;
+}
+
+footer p a:active { 
+color: red;
+}

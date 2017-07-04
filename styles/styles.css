@@ -1,0 +1,425 @@
+/*
+filename: styles.css
+author: HUSSAIN
+description: same css for all pages.
+*/
+
+.rclogo {
+float: left; 
+padding-top: 0.5%;
+}
+
+nav {
+list-style: none; 
+font-weight: 500;
+margin-left: 17.5em; 
+padding-top: 3em; 
+margin-bottom: 4%;
+}
+
+nav a{
+font-family: calabri, sans-serif;
+text-decoration: none; 
+padding-left:0.5em; 
+padding-right: 0.5em;  
+padding-top: 0.2em; 
+padding-bottom: 0.2em; 
+border-right: 2px solid black; 
+float: left; 
+}
+
+nav a:first-child {
+border-left: 2px solid black;
+}
+
+nav a:hover {
+font-weight: bold;
+font-size: 110%;
+}
+
+.about {border-left: 2px solid black;}
+
+a.active {
+background: #ffffcc;
+font-weight: bold;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+}
+
+a.active:hover {
+font-size: 100%;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/*
+description: css for jobs.html
+*/
+
+#jobsbody {
+font-family: calabri, sans-serif;
+}
+
+#rclogo {
+float: left; 
+padding-top: 0.5%;
+padding-bottom: 1em;
+}
+
+.h2jobs {text-decoration: underline;}
+.h3jobs {text-decoration: underline;}
+
+#p1jobs {
+text-align: center;
+border-bottom: 2px solid black;
+padding-bottom: 1em;
+}
+
+#mainjobs {
+clear:both; 
+background-color: #003366; 
+color: white; 
+padding-bottom:0.15em; 
+padding-top: 0.15em; 
+padding-left: 0.5em; 
+text-align: left; 
+}
+
+header {
+margin-left: 0.5%;
+margin-right: 0.5%;
+}
+
+section {
+width: 48.5%; 
+margin-bottom: 2.5%;
+color:white;
+border-top: none;
+padding-top: 1.5%;
+}
+
+section .jobsdiv {
+text-decoration: underline;
+background-color: #003366;
+padding-bottom:0.15em; 
+padding-top: 0.15em; 
+}
+
+article{
+border: 1px solid black;
+background-color: white; 
+color:black;
+padding-left: 0.8em; 
+padding-right:0.8em;
+font-weight: 100;
+font-size: 90%;
+padding-bottom: 5%;
+}
+
+h1, .centerheading {
+text-align:center;
+}
+
+.jobs {
+float:left
+}
+
+#sajobs {
+margin-right: 2%; 
+margin-left: 0.5%;
+margin-bottom: 3%;
+}
+
+#tcwjobs{
+width: 48.5%
+}
+
+.jr {
+text-align:center;
+}
+
+.applycenter {
+text-align: center;
+padding-top: 3%;
+text-decoration: none;
+}
+
+#applyjobs1, #applyjobs2 {
+text-decoration:none;
+border: 2px solid #737373;
+padding: 1% 3% 1% 3%;
+font-size: 120%;
+font-weight: bold;
+background-color: #e6e6e6;
+}
+
+#applyjobs1, #applyjobs2:link { 
+color: #404040;
+}
+
+#applyjobs1, #applyjobs2:visited { 
+color: #404040;
+}
+
+#applyjobs1, #applyjobs2:active { 
+color: #404040;
+}
+
+footer p:first-child {
+clear:both; 
+font-size: 120%; 
+text-align: center; 
+padding-top: 0.7em;
+padding-bottom: 0.7em;
+border-bottom: 2px solid #595959;
+font-family: serif;
+}
+
+footer p:nth-child(2){
+text-align: center; 
+font-weight: bold;
+}
+
+.strong {font-weight: bold;}
+
+footer p a:link { 
+color: red;
+}
+
+footer p a:visited { 
+color: red;
+}
+
+footer p a:active { 
+color: red;
+}
+
+footer {
+color: white;
+background-image: url(images/background2.jpg);
+background-repeat: repeat-x;
+background-position: bottom;
+background-size: 100% 12.9%;
+padding-bottom: 0.5%;
+margin-right: 0.4%;
+margin-left: 0.4%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/*
+description: css for apply.html
+*/
+
+#applybody{
+background-image: url("images/background3.jpg");
+}
+
+fieldset legend {
+color: #725129; 
+font-weight:bold; 
+padding-top: 8%; 
+font-size: 130%; 
+color: white; 
+text-decoration: underline; 
+}
+
+fieldset p input {margin-top: 1%;}
+
+fieldset {
+background-color: #003366; 
+border: 2px solid #000000; 
+border-top: 2px solid #003366; 
+border-radius: 5px; 
+padding: 1.5%; 
+color: white; 
+width: 40%;
+}
+
+fieldset input[type=text]{
+text-transform:capitalize;
+}
+
+input { 
+padding: 0.3em; 
+border-radius: 4px; 
+border: 1px solid black; 
+}
+
+input[type=email], input[type=text] {
+width: 35%;
+font-family: calabri, sans-serif;
+}
+
+input[type=checkbox]{
+margin-right: 0.5em;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+width:90%; 
+background-color: #d9d9d9;  
+}
+
+#jbn {
+width: 20%; 
+clear:both; 
+float: none; 
+text-align: center; 
+}
+
+#jbn1 {
+padding-left: 15%;
+padding-top: 13%;
+}
+
+#jrn {width: 40%;
+text-align: center;
+font-size:100%;
+font-weight:bold;
+}
+
+#postcode {width: 20%;
+padding-left: 0.5em; 
+}
+	
+select {
+width: 36.2%;
+padding: 0.6em;
+border: none;
+border-radius: 4px;
+}
+
+
+#checkbox {
+float:left;
+text-decoration: none;
+
+}
+
+aside {
+margin-left: 35%; 
+}
+
+aside textarea {
+width: 80%; 
+height: 180px;
+}
+
+
+input[type=submit], input[type=reset] {
+background-color: #437314;
+border: none;
+color: white;
+padding: 10px 16px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+width: 21.35%;
+font-size: 100%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/*
+description: css for about.html
+*/
+
+#aboutbody{
+background-image: url(images/background.jpg);
+background-repeat: repeat-x;
+background-position: top;
+margin:0; 
+}
+
+#me {
+float:right; 
+border: 3px double black;
+padding: 40px;
+clear: both;
+}
+
+div div {
+background-image: url(images/background4.png);
+padding-bottom: 1%;
+}
+
+#p1 {
+text-align: left; 
+font-size:150%; 
+font-weight: bold;
+margin-top: 3em;
+}
+
+#p3 {
+text-align: left; 
+clear: both;
+margin-top: 27.2%;
+padding-top: 1.5%;
+}
+
+#p2 {
+font-family: courier, monospace;
+}
+
+#p2, #p4 {
+text-align: right;
+}
+
+#p2, #p3, #p4, #p5 {font-size: 125%;}
+
+
+#asidefooter {
+text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+margin-top: 2em;
+margin-left: 30%;
+width: 40%;
+}
+
+table, th, td {border: 1px solid black;}
+table td:hover {text-decoration:underline; font-weight: bold;}
+.tg  {border-collapse:collapse; width: 100%;}
+.tg td{font-family:Arial, sans-serif; font-size:14px; padding:10px 5px;}
+.tg th{font-family:Arial, sans-serif; font-size:14px; padding:10px 5px;}
+.tg .tg-1{background-color:#ffffc7; text-align:center; vertical-align:middle}
+.tg .tg-2{font-size:15px; background-color:#ffffc7; text-align:center; vertical-align:middle}
+.tg .tg-3{background-color:#fe996b; text-align:center; vertical-align:middle}
+.tg .tg-4{background-color:#cbcefb; text-align:center; vertical-align:middle}
+.tg .tg-5{background-color:#67fd9a; text-align:center; vertical-align:middle}
+.tg .tg-6{background-color:#ffccc9; text-align:center; vertical-align:middle}
+.tg .tg-7{font-weight:bold; text-decoration:none; font-size:14px; font-family:"Lucida Console", Monaco, monospace; background-color:#ffffc7; text-align:center; vertical-align:top}
+.tg .tg-8{background-color:#b8b894; text-align:center; vertical-align:middle}
+.tg .th{font-weight:bold; text-decoration:underline; font-size:16px; font-family:"Times New Roman", Times, serif; background-color: #003366; color:#ffffff; text-align:center; vertical-align:top}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/*
+description: css for enhancement2.html
+*/
+
+#enhancehead{
+text-align: center;
+font-size: 300%;
+font-weight: bold;
+}
+
+.ehancelist{
+text-align: center;
+font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

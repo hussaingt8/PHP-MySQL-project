@@ -1,0 +1,85 @@
+/* responsive.css  */
+/* media query for display: below 500 */ 
+@media screen and (max-width: 31.25em ) {
+ 
+nav {
+margin-left: 15%;
+padding: 0;
+float: left; 
+font-size: 90%;
+clear: both;
+}
+
+nav a {
+float:left;
+border: none;
+font-weight: bold;
+padding: .625em 3em; 
+}
+
+a.active {
+background: #ffffcc;
+font-weight: bold;
+border-top: none;
+border-bottom: none;
+}
+
+nav a:first-child{
+border: none;
+}
+
+#jbn{width: 90%;}
+
+fieldset {
+width: 90%;
+}
+
+aside {
+clear:both; margin: 0;
+}
+
+aside textarea {
+width: 90%; 
+}
+
+input[type=text],input[type=email]{
+width: 90%;
+}
+
+select {
+width: 60%;
+}
+
+input[type=submit], input[type=reset] {
+width: 46%;
+}
+
+}
+
+/* responsive.css  */
+/* media query for display: over 500 */ 
+@media screen and (min-width: 31.25em) {
+
+#jbn {width: 40%;}
+
+fieldset {
+width: 85%;
+}
+
+
+input[type=submit], input[type=reset] {
+width: 44%;
+}
+
+}
+
+/* responsive.css  */
+/* media query for display: over 980px */ 
+@media screen and (min-width: 980px) {
+
+#jbn {width: 30%;}
+
+
+}
+
+
